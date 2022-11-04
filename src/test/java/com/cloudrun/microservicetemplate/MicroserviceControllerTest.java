@@ -41,4 +41,9 @@ public class MicroserviceControllerTest {
   public void returns_notFount() throws Exception {
     this.mvc.perform(post("/")).andExpect(status().isMethodNotAllowed());
   }
+  
+  //@Test
+  public void test() throws Exception {
+    println("nothing")
+  }
 }
